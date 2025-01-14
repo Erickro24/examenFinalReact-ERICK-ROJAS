@@ -11,9 +11,10 @@ const Home = () => {
     return (
         <div>
             
-            <OpenLinnk redirectURL="https://vite.dev" logoImage={viteLogo}></OpenLinnk>
+            <div><OpenLinnk redirectURL="https://vite.dev" logoImage={viteLogo}></OpenLinnk>
             <OpenLinnk redirectURL="https://react.dev" logoImage={reactLogo}></OpenLinnk>
             <OpenLinnk redirectURL="https://github.com/" logoImage={githublogo}></OpenLinnk>
+            </div>
             <Body></Body>
             <Footer></Footer>
             
