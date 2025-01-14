@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import reactLogo from "/src/assets/react.svg";
-import viteLogo from "/src/assets/react.svg";
+// import reactLogo from "/src/assets/react.svg";
+// import viteLogo from "/src/assets/react.svg";
 
 const Default= () => {
     const [count, setCount] = useState(0)
