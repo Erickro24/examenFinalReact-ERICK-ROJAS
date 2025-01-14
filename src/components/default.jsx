@@ -1,18 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '../assets/react.svg'
+import { useState } from 'react';
+import reactLogo from "/src/assets/react.svg";
+import viteLogo from "/src/assets/react.svg";
+
 const Default= () => {
     const [count, setCount] = useState(0)
     return (
         <div>
-            <div>
+                {/* <div>
                     <a href="https://vite.dev" target="_blank">
                       <img src={viteLogo} className="logo" alt="Vite logo" />
                     </a>
                     <a href="https://react.dev" target="_blank">
                       <img src={reactLogo} className="logo react" alt="React logo" />
                     </a>
-                  </div>
+                </div> */}
                   <h1>Vite + React</h1>
                   <h2>diplomado fullstack</h2>
                   <h3>modulo VII react</h3>
