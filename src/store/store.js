@@ -7,6 +7,9 @@ const store = configureStore({
         // Define your reducers here
         counter: counterReducer,
         //product: userProduct,
+        // product: ProductReducer,
+        
+
     },
 });
 export default store;

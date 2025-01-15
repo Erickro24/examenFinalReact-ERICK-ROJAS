@@ -2,7 +2,7 @@
 import './App.css'
 // import Default from './components/default.jsx';
 
-
+//import Product from './screens/Product.jsx'
 // import Home from '/src/screens/Home.jsx';
 // import Counter from '/src/components/Counter/counter.jsx';
 
