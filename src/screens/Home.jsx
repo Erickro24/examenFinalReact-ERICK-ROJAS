@@ -10,17 +10,17 @@ import githublogo from "/src/assets/git.svg";
 
 import { useSelector } from'react-redux';
 const Home = () => {
-    const count = useSelector((state) => state.counter.value)
+    // const count = useSelector((state) => state.counter.value)
     return (
         <div>
-            <span>{count}</span>
+            {/* <span>{count}</span>
             <div>
             <OpenLinnk redirectURL="https://vite.dev" logoImage={viteLogo}></OpenLinnk>
             <OpenLinnk redirectURL="https://react.dev" logoImage={reactLogo}></OpenLinnk>
             <OpenLinnk redirectURL="https://github.com/" logoImage={githublogo}></OpenLinnk>
-            </div>
-            <Body></Body>
-            <Footer></Footer>
+            </div> */}
+            {/* <Body></Body> */}
+            {/* <Footer></Footer> */}
             
         </div>
     );
