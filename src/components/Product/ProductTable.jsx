@@ -1,13 +1,16 @@
 import ProductCategoryRow from '../Product/ProductCategoryRow.jsx';
 import ProductRow from '../Product/ProductRow.jsx'
 
+// eslint-disable-next-line react/prop-types
 const ProductTable = ({ products, filterText, inStockOnly }) => {
   const rows = [];
   let lastCategory = null;
 
+  // eslint-disable-next-line react/prop-types
   products.forEach((product) => {
     if (
       product.name.toLowerCase().indexOf(
+        // eslint-disable-next-line react/prop-types
         filterText.toLowerCase()
       ) === -1
     ) {

@@ -1,7 +1,11 @@
 const SearchBar = ({
+    // eslint-disable-next-line react/prop-types
     filterText,
+    // eslint-disable-next-line react/prop-types
     inStockOnly,
+    // eslint-disable-next-line react/prop-types
     onFilterTextChange,
+    // eslint-disable-next-line react/prop-types
     onInStockOnlyChange
   }) => {
     return (

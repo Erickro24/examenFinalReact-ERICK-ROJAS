@@ -1,7 +1,9 @@
+
 import SearchBar from '../Product/SearchBar.jsx';
 import ProductTable from '../Product/ProductTable.jsx';
 import { useState } from 'react';
 
+// eslint-disable-next-line react/prop-types
 const FilterableProductTable = ({ products }) => {
   const [filterText, setFilterText] = useState('');
   const [inStockOnly, setInStockOnly] = useState(false);
