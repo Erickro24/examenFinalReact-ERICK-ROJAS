@@ -13,7 +13,7 @@ import { BrowserRouter } from 'react-router'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <Provider store={store}>
-          <BrowserRouter>
+          <BrowserRouter basename='/desarrollo-react-rojas/'>
             <App />
           </BrowserRouter>
       </Provider>
