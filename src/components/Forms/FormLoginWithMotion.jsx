@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "motion/react"
 import useForm from "../Hooks/useForm.js";
-import ModalInfo from "../../componentes/Modals/ModalInfo.jsx";
+import ModalInfo from "../Modals/ModalInfo.jsx";
 
 // eslint-disable-next-line react/prop-types
 const FormWithMotionAndHook = ({titleForm}) => {
@@ -16,7 +16,7 @@ const FormWithMotionAndHook = ({titleForm}) => {
     };
 
     const [showModal, setShowModal] = useState(false);
-    const onCloseModalInfo =(){
+    const onCloseModalInfo =()=>{
         // Aquí se podría cerrar el modal
         setShowModal(false);
 
