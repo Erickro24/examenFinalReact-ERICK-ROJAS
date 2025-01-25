@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useSelector, useDispatch } from 'react-redux'
 // eslint-disable-next-line no-unused-vars
 import { logout, resetForm } from '../../store/features/forms/formSlice.js';
-import ModalInfo from "../../Components/Modals/ModalInfo.jsx";
+import ModalInfo from "../../components/Modals/ModalInfo.jsx";
 
 const UserNav = () => {
     // eslint-disable-next-line no-unused-vars
