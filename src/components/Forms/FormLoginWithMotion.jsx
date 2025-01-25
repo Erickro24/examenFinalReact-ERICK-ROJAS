@@ -1,8 +1,8 @@
 import { motion } from "motion/react"
 import useForm from "../Hooks/useForm.js";
 
-import ModalSuccess from "../../Components/Modals/ModalSuccess.jsx";
-import ModalError from "../../Components/Modals/ModalError.jsx";
+import ModalSuccess from "../../components/Modals/ModalSuccess.jsx";
+import ModalError from "../../components/Modals/ModalError.jsx";
 import { useState } from "react";
 import { useSelector, useDispatch } from 'react-redux'
 // eslint-disable-next-line no-unused-vars
