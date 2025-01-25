@@ -1,6 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import  counterReducer  from "./features/counter/counterSlice.js";
 //import {userProduct} from "./features/user/userProduct.js";
+import formReducer from './features/forms/formSlice.js'
 
 const store = configureStore({
     reducer: {
@@ -8,7 +9,7 @@ const store = configureStore({
         counter: counterReducer,
         //product: userProduct,
         // product: ProductReducer,
-        
+        form: formReducer
 
     },
 });
