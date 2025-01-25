@@ -13,7 +13,7 @@ import { BrowserRouter } from 'react-router'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <Provider store={store}>
-          <BrowserRouter basename='/desarrollo-react-rojas/'>
+          <BrowserRouter basename='/examenFinalReact-ERICK-ROJAS/'>
             <App />
           </BrowserRouter>
       </Provider>
