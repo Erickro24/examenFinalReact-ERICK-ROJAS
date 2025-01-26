@@ -154,3 +154,7 @@
   background-color: #1a96e9;
   height: 1px;  
 }
+.text_area{
+  align-content: end;  
+  margin-bottom: 20px;
+}
