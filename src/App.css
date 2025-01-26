@@ -113,3 +113,21 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
+.container2 {
+  background-color: #1a96e9;
+  color: white;
+  height: 100px;
+  justify-content: center ;
+  align-items: center;
+  display: flex;
+}
+
+.linea {
+  background-color: #1a96e9;
+  height: 2px;  
+}
+
+.linea2 {
+  background-color: #1a96e9;
+  height: 1px;  
+}

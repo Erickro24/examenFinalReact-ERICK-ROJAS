@@ -4,7 +4,7 @@ const LandingPage = () => {
     return (
         // eslint-disable-next-line react/no-unknown-property
         <div class="container">
-            <div className='contenedor'>
+            <div className='container2'>
                 <h1>Modulo 7: DESARROLLO FRONTEND CON REACTJS</h1>
             </div>
             
@@ -33,7 +33,7 @@ const LandingPage = () => {
             <div className='linea'></div>
             <p>Para profundizar en los temas cubiertos, consulta los siguientes recursos:</p>
             <br />
-            <div className='linea-gris'></div>
+            <div className='linea2'></div>
             <div className='copyright'><p >© 2024 Modulo 7. USIP.</p></div>
             
         </div>        
