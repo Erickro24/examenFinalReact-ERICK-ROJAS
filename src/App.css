@@ -92,11 +92,23 @@
   align-items: center;
   z-index: 1000;
 }
+
 .notification-success {
-  background-color: #efd6bd;
-  color: #cc8259;
+  background-color: #008f39;
+  color: #ffffff;
   padding: 2rem;
-  border: 1px solid #cc8259;
+  border: 1px solid #008f39;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+.notification-info {
+  background-color: #e0474c;
+  color: #ffffff;
+  padding: 2rem;
+  border: 1px solid #e0474c;
   border-radius: 0.5rem;
   max-width: 500px;
   width: 90%;
@@ -109,9 +121,20 @@
   right: 0.5rem;
   background: transparent;
   border: none;
-  color: #7e4f1a;
+  color: #3d3a33;
   font-size: 1.5rem;
   cursor: pointer;
+}
+.notification-error {
+  background-color:  #e0474c;
+  color: #f1f0ee;
+  padding: 2rem;
+  border: 1px solid  #e0474c;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  position: relative;
 }
 .container2 {
   background-color: #1a96e9;

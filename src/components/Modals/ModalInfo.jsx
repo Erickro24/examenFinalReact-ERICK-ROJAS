@@ -24,8 +24,8 @@ return (
                 animate={{opacity: 1, y: 0}}
                 transition={{duration: 0.5}}
             >
-                <div>
-                    <p>{message}</p><button onClick={onHandleLogout}>Presionar para salir!!!</button>
+                <div className="button2">
+                    <p>{message}</p><button onClick={onHandleLogout}>Presionar aqui para salir!!!</button>
                 </div>
                 <button
                     className="close-btn-success"
